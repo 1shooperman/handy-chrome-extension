@@ -1,6 +1,6 @@
 {
   "name": "Brandon's GMAIL Extension",
-  "description": "Extension to add some custom stuff so I can be lazier.",
+  "description": "Extension for chrome to ease some more menial tasks.",
   "version": "1.0",
   "content_scripts": [
     {
