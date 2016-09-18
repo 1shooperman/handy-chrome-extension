@@ -8,7 +8,7 @@ module.exports = function(grunt) {
             }
         },
         jshint: {
-            src: ['app/**/*.js', 'app/*.js', 'config/**/*.js', 'config/*.js'],
+            src: ['content.js', 'Gruntfile.js'],
             options: {
                 node: true,
                 curly: true,
@@ -37,8 +37,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-env');
 
-    grunt.registerTask('default', ['less', 'cssmin', 'jshint', 'uglify']);
+    grunt.registerTask('default', ['cssmin', 'jshint', 'uglify']);
 };
