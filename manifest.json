@@ -1,7 +1,7 @@
 {
   "name": "Brandon's GMAIL Extension",
   "description": "Extension for chrome to ease some more menial tasks.",
-  "version": "1.0",
+  "version": "1.0.0",
   "content_scripts": [
     {
       "matches": [

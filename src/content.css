@@ -2,3 +2,7 @@
     background-color: #32127A !important;
     color:white;
 }
+
+.sm-icon {
+    background-image: url('./Mooshin_48x48.png');
+}

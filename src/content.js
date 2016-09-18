@@ -4,7 +4,7 @@ InboxSDK.load('1', 'sdk_furagequit_af3de50c2b').then(function(sdk) {
 	sdk.Compose.registerComposeViewHandler(function(composeView) {
         composeView.addButton({
             title: "P0 Templates",
-            iconUrl: 'https://lh5.googleusercontent.com/itq66nh65lfCick8cJ-OPuqZ8OUDTIxjCc25dkc4WUT1JG8XG3z6-eboCu63_uDXSqMnLRdlvQ=s128-h128-e365',
+			iconUrl: "",
             hasDropdown: true,
             onClick: function(event) {
                 // event.composeView.insertTextIntoBodyAtCursor('Hello World!');
