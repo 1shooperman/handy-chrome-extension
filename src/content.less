@@ -1,6 +1,26 @@
+@primary-color: #fff;
+@hover-color: #778899;
+@hover-background: #ADD8E6;
+@button-color: #32127A;
+@border-color: #000;
+
 .raw-view-button {
     div {
-        background-color: #32127A !important;
+        background-color: @button-color !important;
         color:white;
+    }
+}
+
+.escalation-box {
+    border: 1px solid @border-color !important;
+    border-radius: 3px !important;
+    padding: 2px !important;
+    background-color: @primary-color !important;
+    .escalation-box-opt {
+        margin: 1px;
+        &:hover, &:active {
+            color: @hover-color !important;
+            background-color: @hover-background !important;
+        }
     }
 }
