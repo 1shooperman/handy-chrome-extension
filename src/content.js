@@ -4,7 +4,7 @@ InboxSDK.load('1', 'sdk_furagequit_af3de50c2b').then(function(sdk) {
 	sdk.Compose.registerComposeViewHandler(function(composeView) {
         composeView.addButton({
             title: "P0 Templates",
-			iconUrl: "",
+			iconUrl: "https://raw.githubusercontent.com/bshoop117/handy-chrome-extension/master/Mooshin_48x48.png",
             hasDropdown: true,
             onClick: function(event) {
                 // event.composeView.insertTextIntoBodyAtCursor('Hello World!');
