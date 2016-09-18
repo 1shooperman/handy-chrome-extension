@@ -8,7 +8,7 @@ module.exports = function(grunt) {
             }
         },
         jshint: {
-            src: ['content.js', 'Gruntfile.js'],
+            src: ['src/content.js', 'Gruntfile.js'],
             options: {
                 node: true,
                 curly: true,
@@ -20,7 +20,8 @@ module.exports = function(grunt) {
             build: {
                 files: {
                     'content.min.js': [
-                        'content.js'
+                        'src/inboxsdk.js',
+                        'src/content.js'
                     ]
                 }
             }
@@ -28,7 +29,7 @@ module.exports = function(grunt) {
         cssmin: {
             build: {
                 files: {
-                    'content.min.css': 'content.css'
+                    'content.min.css': 'src/content.css'
                 }
             }
         }
