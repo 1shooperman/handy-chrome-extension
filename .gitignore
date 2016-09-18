@@ -1,5 +1,6 @@
 node_modules
-*.min.js
-*.min.css
+dist/*.min.js
+dist/*.min.css
 npm-debug.log
 .DS_Store
+src/*.css
