@@ -13,6 +13,10 @@
       "run_at": "document_end"
     }
   ],
+  "icons": {
+     "128": "Mooshin_128x128.png",
+     "48": "Mooshin_48x48.png"
+  },
   "permissions": [
     "https://mail.google.com/",
     "https://inbox.google.com/"
