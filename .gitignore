@@ -4,3 +4,5 @@ dist/*.min.css
 npm-debug.log
 .DS_Store
 src/*.css
+dist.pem
+dist.crx
