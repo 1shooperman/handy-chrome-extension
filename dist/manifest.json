@@ -22,9 +22,5 @@
     "https://inbox.google.com/",
     "storage"
   ],
-  "manifest_version": 2,
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  }
+  "manifest_version": 2
 }
