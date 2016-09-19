@@ -19,8 +19,7 @@
   },
   "permissions": [
     "https://mail.google.com/",
-    "https://inbox.google.com/",
-    "storage"
+    "https://inbox.google.com/"
   ],
   "manifest_version": 2
 }
